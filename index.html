@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FLORENTINE</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="countstyle.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <script src="script.js" defer></script>
+     
+    </head>
+
+    <body>
+
+        <header>
+            <div class="header">
+                <h1>Florentine</h1>
+                <p>Multi-cuisine</p>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="menu.html">Menu</a>
+                <a href="reservation.html">Reservation</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        <!--- Home Page – 
+            A promotional video, 
+            attractive graphic content, 
+            navigation menu to navigate to the other pages, 
+            a countdown clock till the opening day(if you can make it using Html and css), 
+            a carousel of highlighted pictures(again if possible)
+
+            • Menu
+            • Gallery – An image grid of its food, drinks, ambience, team etc.
+            • Hours & Location 
+            • Reservation – A static form to capture details from customers. 
+            Details to be captured – Name, email, id, contact number, 
+            number of guests, date, and timeslot of arrival.
+            • About Us – You can include details of the restaurant, 
+            • Contact – You can include contact details, 
+            social media logos, 
+            a static contact form to post a query-->   
+
+        </header>
+        <!---Video-->
+        <section class="video">
+            <div class="watch">
+                <h1>A New Restaurant in Budapest</h1>
+                <div class="video-container">
+
+                    <iframe src="https://www.youtube.com/embed/q2RCrKGUAkI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>          
+
+                </div>
+            </div>
+        </section>
+
+        <!---//Countdown-->
+        <section class="countdown">
+            <h1>Opening day in</h1>
+            <div class="countdown-container">
+                <div class="countdown-el days">
+                    <p class="text" id="days">0</p>
+                    <span>days</span>
+                </div>
+
+                <div class="countdown-el hours">
+                    <p class="text" id="hours">0</p>
+                    <span>hours</span>
+                </div>
+
+                <div class="countdown-el minutes">
+                    <p class="text" id="minutes">0</p>
+                    <span>minutes</span>
+                </div>
+
+                <div class="countdown-el seconds">
+                    <p class="text" id="seconds">0</p>
+                    <span>seconds</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
+        <!---//Gallery-->
+        <section class="cards-gallery">
+            <div class="container">
+                <div class="gallery-container">
+                    <h1>Gallery</h1>
+                    <div class="gallery">
+                        <input type="radio" name="controls" id="c1" checked>
+                        <img src="img/1-bitterballenPixabay_web.jpg" id="i1" class="gallery-image">
+
+                        <input type="radio" name="controls" id="c2">
+                        <img src="img/brazilian-food-pastel2.jpg" id="i2" class="gallery-image">
+
+                        <input type="radio" name="controls" id="c3">
+                        <img src="img/coxinha-brazilian-snacks.jpg" id="i3" class="gallery-image">
+
+                        <input type="radio" name="controls" id="c4">
+                        <img src="img/feijoada.jpg" id="i4" class="gallery-image">
+
+                        <input type="radio" name="controls" id="c5">
+                        <img src="img/halal.jpg" id="i5" class="gallery-image">
+
+                        <input type="radio" name="controls" id="c6">
+                        <img src="img/indianfood.jpg" id="i6" class="gallery-image">
+
+                    </div>
+
+                    <div class="thumbnails">
+                        <label class="thumbnailImage" for="c1">
+                            <img src="img/1-bitterballenPixabay_web.jpg">
+                        </label>
+
+                        <label class="thumbnailImage" for="c2">
+                            <img src="img/brazilian-food-pastel2.jpg">
+                        </label>
+
+                        <label class="thumbnailImage" for="c3">
+                            <img src="img/coxinha-brazilian-snacks.jpg">
+                        </label>
+
+                        <label class="thumbnailImage" for="c4">
+                            <img src="img/feijoada.jpg">
+                        </label>
+
+                        <label class="thumbnailImage" for="c5">
+                            <img src="img/halal.jpg">
+                        </label>
+
+                        <label class="thumbnailImage" for="c6">
+                            <img src="img/indianfood.jpg">
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--About us-->
+        <section class="about">
+            <div class="us">
+                <h1>About us</h1>
+                <h2>Florentine</h2>
+                <h3>Multi-cuisine</h3>
+                <p>FLORENTINE is a multi-cuisine, fine dining restaurant which aims to bring the best-in class hospitality and dining 
+                    experience to its customers. It has great ambience with ultra-chic decor and pastel color palettes. It 
+                    serves meals of different cuisines across the world with some signature dishes offered by its Michelin 
+                    starred chef, who is also one of the owners of the restaurant. The place also has an attractive bar lounge 
+                    with unique cocktails on its menu.
+                    </p>
+                <p>.  .</p>
+            </div>
+        </section>
+        <!---Countdown Time-->
+
+        <!---Reservation-->
+        <section class="banner">
+            <h2>Book your table now</h2>
+            <div class="card-container">
+                <div class="card-img">
+
+                </div>
+                
+                <div class="card-content">
+                    <h3>Reservation</h3>
+                    <form>
+                        <div class="form-row">
+                            <select name="days" class="days">
+                                <option value="day-select">Select Day </option>
+                                <option value="monday">Sunday</option>
+                                <option value="monday">Monday</option>
+                                <option value="monday">Tuesday</option>
+                                <option value="monday">Wednesday</option>
+                                <option value="monday">Thurday</option>
+                                <option value="monday">Friday</option>
+                                <option value="monday">Saturday</option>
+                            </select>
+                            <select name="hours" class="name">
+                                <option value="hour-select">Select Hour</option>
+                                <option value="08">08:00</option>
+                                <option value="09">09:00</option>
+                                <option value="10">10:00</option>
+                                <option value="11">11:00</option>
+                                <option value="12">12:00</option>
+                                <option value="13">13:00</option>
+                                <option value="14">14:00</option>
+                                <option value="15">15:00</option>
+                                <option value="16">16:00</option>
+                                <option value="17">17:00</option>
+                                <option value="18">18:00</option>
+                                <option value="19">19:00</option>
+                                <option value="20">20:00</option>
+                                
+
+                            </select>
+                        </div>
+                        <div class="form-row">
+                            <input type="text" class="text" placeholder="Full Name">
+                            <input type="text" class="text" placeholder="Email">
+                            <input type="text" class="text" placeholder="ID Number">
+                            <input type="text" class="text" placeholder="Contact Number">
+                        </div>
+
+                        <div class="form-row">
+                            <input type="text" placeholder="Number of Guests">
+                            <input type ="submit" value="BOOK A TABLE">   
+                        </div>
+                        </form>
+
+                    </div>
+                
+
+            </div>
+        </section>
+        <footer>
+            <div class="info-footer">
+                <div class="phonenumber">
+                    <!--Hours and Location/ Phone numbers-->
+                    <p>Phone Number:</p>
+                    <p>+36 1 886 8000</p>
+                </div>
+                <div class="openhour">
+                    <p>Opening Hours:</p>
+                    <p>Monday to Sunday</p>
+                    <p>08:00 to 20:00</p>
+                </div>
+                <div class="address">
+                    <p>Address:</p>
+                    <p>1117 Irinyi József u 4-20</p>
+                    <p>Budapest, Hungary.</p>
+                </div>
+            </div>
+            
+                
+            <div class="socialnetwork">
+                <a href="https://www.instagram.com/tcsglobal/" target="_blank">
+                    <img src="https://thedaylightaward.com/wp-content/uploads/2019/12/instagram-icon.png"></a>
+                <a href="https://www.facebook.com/TataConsultancyServicesHungary/" target="_blank">
+                    <img src="https://icon-library.com/images/facebook-icon-black/facebook-icon-black-12.jpg"></a>
+                <a href="https://twitter.com/tcs" target="_blank">
+                    <img src="https://uxwing.com/wp-content/themes/uxwing/download/10-brands-and-social-media/twitter-line.png"></a>
+            </div>
+            
+        </footer>
+        <div class="copyright">
+            <p>FLORENTINE Multi-cousine Restaurant 2022 &copy;</p>
+        </div>
+
+    </body>
+</html>
