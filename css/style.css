@@ -106,7 +106,7 @@ footer{
     width: 80%;
     position: relative;
     padding-bottom: 40px;
-    margin-left: 180px;  
+    margin-left: 560px;  
       
     
 }
@@ -115,10 +115,43 @@ footer{
     position: relative;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 400px;
+    width: 1000px;
+    height: 300px;
     text-align: center;
     align-items: center;
+}
+
+/*--Carrossel--*/
+
+#slider-body{
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#slider{
+    width: 80%;
+    max-width: 1000px;
+    height: 25vw;
+    max-height: 200px;
+
+    position: relative;
+}
+
+#slider img {
+    opacity: 0;
+    
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+    transition: opacity 800ms;
+}
+
+#slider img.selected {
+    opacity: 1;
 }
 
 /*---Countdown--*/
@@ -362,7 +395,7 @@ footer{
 }
 
 .card-img{
-    background:url("img/Top-11-Traditional-Brazilian-Foods-You-May-Want-to-Try.jpg") center/cover no-repeat ;
+    background:url("/img/Top-11-Traditional-Brazilian-Foods-You-May-Want-to-Try.jpg") center/cover no-repeat ;
 }
 
 .banner h2 {
@@ -522,6 +555,45 @@ form input[type=submit]:hover{
     float: right;
     color: rgb(114, 89, 21);
     font-family: 'Comforter', cursive;
+    font-weight: 900;
+}
+.single-menu p {
+    float: right;
+    padding-top: 20px;
+    color: rgb(114, 89, 21);
+    font-family: 'Poiret One', cursive;
+    font-weight: 900;
+}
+
+#card-food {
+    padding-left: 900px;
+    text-decoration: underline;
+    display: flex;
+    color: rgb(114, 89, 21);
+    font-family: 'Poiret One', cursive;
+    font-weight: 900;
+}
+#card-food:hover{
+    padding-top: 10px ;
+    padding-left: 900px;
+    text-decoration: none;
+    display: flex;
+    color: rgb(53, 41, 10);
+    font-family: 'Poiret One', cursive;
+    font-weight: 900;
+}
+
+
+.basket {
+    color: #000;
+    padding: 60px;
+}
+
+.basket p {
+    float: right;
+    padding-top: 20px;
+    color: rgb(114, 89, 21);
+    font-family: 'Poiret One', cursive;
     font-weight: 900;
 }
 

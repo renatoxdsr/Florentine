@@ -1,0 +1,73 @@
+[
+    {
+        "id": 1,
+        "name" : "Stropwaffles",
+        "category": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the",
+        "price" : "12&#8364; / 4500&#70;&#116;",
+        "img": "img/stoopwafels.jpg",
+        "quantity" : 0
+
+    },
+    {
+        "id": 2,
+        "name" : "Masala",
+        "category": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the",
+        "price" : "12&#8364; / 4500&#70;&#116;",
+        "img": "img/vegan-tofu-tikka-masala-recipe-3378484-hero-01-d676687a7b0a4640a55be669cba73095.jpg",
+        "quantity" : 0
+    },
+    {
+        "id": 3,
+        "name" : "Indian food",
+        "category": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the",
+        "price" : "16&#8364; / 5500&#70;&#116;",
+        "img": "img/indianfood2.jpg",
+        "quantity" : 0
+
+    },
+    {
+        "id": 4,
+        "name" : "Coxinha",
+        "category": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the",
+        "price" : "10&#8364; / 4000&#70;&#116;",
+        "img": "img/coxinha-brazilian-snacks.jpg",
+        "quantity" : 0
+    },
+    {
+        "id": 5,
+        "name" : "Brazilian / Chinese Pastel",
+        "category": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the",
+        "price" : "12&#8364; / 4500&#70;&#116;",
+        "img": "img/brazilian-food-pastel2.jpg",
+        "quantity" : 0
+
+    },
+    {
+        "id": 6,
+        "name" : "Feijoada",
+        "category": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the",
+        "price" : "12&#8364; / 4500&#70;&#116;",
+        "img": "img/feijoada.jpg",
+        "quantity" : 0
+    },
+    {
+        "id": 7,
+        "name" : "Halal",
+        "category": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the",
+        "price" : "8&#8364; / 3500&#70;&#116;",
+        "img": "img/halal.jpg",
+        "quantity" : 0
+
+    },
+    {
+        "id": 8,
+        "name" : "Masala",
+        "category": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the",
+        "price" : "12&#8364; / 4500&#70;&#116;",
+        "img": "img/vegan-tofu-tikka-masala-recipe-3378484-hero-01-d676687a7b0a4640a55be669cba73095.jpg",
+        "quantity" : 0
+    }
+    
+    
+
+]
